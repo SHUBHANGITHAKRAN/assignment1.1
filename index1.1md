@@ -1,0 +1,32 @@
+When you type a URL into your web browser (acting as the client), it sends an HTTP or HTTPS request over the internet to a remote server. The server processes this request—retrieving fixed files for a static website or querying a database to generate real-time content for a dynamic website—and sends back a response containing HTML, CSS, and JavaScript. Finally, your browser receives, parses, and renders these files to display the fully loaded webpage on your screen.
+
+Key Definitions & Concepts for Your Assignment
+HTTP vs. HTTPS:
+
+HTTP (Hypertext Transfer Protocol): The standard protocol used to transmit data between a web browser and a website over the internet (unencrypted).
+
+HTTPS (HTTP Secure): The secure, encrypted version of HTTP that protects data privacy and integrity using SSL/TLS certificates.
+
+Static vs. Dynamic Websites:
+
+Static Website: Consists of fixed files (HTML/CSS) stored on the server that look the same for every visitor.
+
+Dynamic Website: Generates content in real-time using server-side code and a database, allowing personalized user experiences (e.g., login dashboards, e-commerce stores).
+
+The Roles:
+
+Client: The device/browser initiating the request (you).
+
+Server: The remote computer hosting the website files and responding to requests.
+
+Database: A structured system that stores, organizes, and retrieves application data for dynamic sites.
+
+How to Get Your Network Tab Screenshot
+Open Google Chrome and go to any website.
+
+Press F12 (or right-click anywhere and select Inspect).
+
+Click on the Network tab at the top of the DevTools panel.
+
+Refresh the page (F5) to capture all incoming requests (HTML, CSS, images, scripts).
+
